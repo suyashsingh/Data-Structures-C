@@ -13,7 +13,7 @@ struct node {
 };
 
 void peekFront(struct node *front); /* Displays the Front Element */
-void peekRear(struct node *rear); /* Displays the Front Element */
+void peekRear(struct node *rear); /* Displays the Rear Element */
 void enqueue(struct node **front, struct node **rear, int *size, int maxSize, int value);
 void dequeue(struct node **front, struct node **rear, int *size, int maxSize);
 
