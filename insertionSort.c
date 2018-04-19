@@ -1,3 +1,7 @@
+/*
+* Insertion Sort
+*/
+
 #include <stdio.h>
 
 void insertionSort(int *arr, int size) {
@@ -11,9 +15,11 @@ void insertionSort(int *arr, int size) {
 			arr[hole] = arr[hole - 1];
 			hole--; 
 		}
+		
 		arr[hole] = value;
 	}
 }
+
 int main() {
 	int arr[] = {7, 2, 4, 1, 5, 3};
 
@@ -23,6 +29,7 @@ int main() {
 	for(int i = 0; i < 6; i++) {
 		printf("%d ", arr[i]);
 	}
+	
 	printf("\n");
 
 	return 0;
