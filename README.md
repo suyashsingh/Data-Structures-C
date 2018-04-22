@@ -4,6 +4,7 @@
 3. Queue Implementation using Singly Linked List
 4. Queue Implementation using Array
 5. Circular Queue Using Array
+6. Circular Queue Using Linked List
 
 ## Sorting
 1. Insertion Sort
