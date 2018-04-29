@@ -19,7 +19,7 @@ void selectionSort(int *arr, int size) {
     // as the last element will get in place
     for(int i = 0; i < size - 1; i++) {
        int minIndex = i;
-       for(int j = i; j < size; j++) {
+       for(int j = i + 1; j < size; j++) {
            if(arr[j] < arr[minIndex]) { // arr[j] > arr[minIndex] for decending order
                minIndex = j;
            }
